@@ -42,6 +42,7 @@
         <Compile Include="ArrayDemo.cs" />
         <Compile Include="Condition\ControlFlow.cs" />
         <Compile Include="Condition\Loop.cs" />
+        <Compile Include="DateTimeDemo.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />
         <Compile Include="ListDemo.cs" />
@@ -50,6 +51,12 @@
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="RandomDemo.cs" />
+        <Compile Include="StringsDemo.cs" />
+        <Compile Include="TextDemo.cs" />
+        <Compile Include="TimeSpanDemo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Date" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

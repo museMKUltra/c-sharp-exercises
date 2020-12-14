@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace ConsoleApplication1
+﻿namespace ConsoleApplication1
 {
     internal static class Program
     {
         public static void Main(string[] args)
         {
-            ArrayAndList.Exercise5();
+            TextDemo.Exercise1();
         }
     }
 }
