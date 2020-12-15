@@ -42,6 +42,7 @@
         <Compile Include="ArrayDemo.cs" />
         <Compile Include="Condition\ControlFlow.cs" />
         <Compile Include="Condition\Loop.cs" />
+        <Compile Include="Customer.cs" />
         <Compile Include="DateTimeDemo.cs" />
         <Compile Include="DirectoryDemo.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
@@ -49,6 +50,7 @@
         <Compile Include="FileDemo.cs" />
         <Compile Include="ListDemo.cs" />
         <Compile Include="Math\Calculator.cs" />
+        <Compile Include="Order.cs" />
         <Compile Include="PathDemo.cs" />
         <Compile Include="Person.cs" />
         <Compile Include="Program.cs" />

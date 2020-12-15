@@ -6,11 +6,15 @@ namespace ConsoleApplication1
     {
         public string FirstName;
         public string LastName;
-        public string Name;
 
-        public void Introduce()
+        public void Introduce(string to)
         {
-            Console.WriteLine("My name is " + FirstName + " " + LastName);
+            Console.WriteLine($"Hi {to}, my name is {FirstName} {LastName}.");
+        }
+
+        public static Person Parse(string firstName, string lastName)
+        {
+            return new Person {FirstName = firstName, LastName = lastName};
         }
     }
 }
