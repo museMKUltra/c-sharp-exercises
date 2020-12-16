@@ -48,11 +48,13 @@
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />
         <Compile Include="FileDemo.cs" />
+        <Compile Include="HttpCookie.cs" />
         <Compile Include="ListDemo.cs" />
         <Compile Include="Math\Calculator.cs" />
         <Compile Include="Order.cs" />
         <Compile Include="PathDemo.cs" />
         <Compile Include="Person.cs" />
+        <Compile Include="Point.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="RandomDemo.cs" />

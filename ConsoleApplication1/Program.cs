@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApplication1.Math;
 
 namespace ConsoleApplication1
 {
@@ -6,13 +7,40 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            var person = Person.Parse("John", "Smith");
-            person.Introduce("Mosh");
+            var cookie = new HttpCookie();
+            cookie.Expire = DateTime.Today.AddDays(5);
+            cookie["name"] = "Mosh";
+            var name = cookie["name"];
+        }
 
-            var customer = new Customer(2, "Jason");
-            Console.WriteLine(customer.Id);
-            Console.WriteLine(customer.Name);
-            Console.WriteLine(customer.Orders);
+        public static void UseParse()
+        {
+            int number;
+            var result = int.TryParse("2", out number); // return boolean
+            if (result)
+                Console.WriteLine(number);
+            else
+                Console.WriteLine("Conversion failed");
+        }
+
+        public static void UsePoints()
+        {
+            try
+            {
+                var point = new Point(3, 4);
+                point.Move(null);
+                Console.WriteLine(point.X);
+                Console.WriteLine(point.Y);
+
+                point.Move(100, 200);
+                Console.WriteLine(point.X);
+                Console.WriteLine(point.Y);
+            }
+            catch (Exception e)
+            {
+                // Console.WriteLine("An unexpected error occured.");
+                Console.WriteLine(e);
+            }
         }
     }
 }

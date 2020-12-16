@@ -6,7 +6,7 @@ namespace ConsoleApplication1
     {
         public int Id;
         public string Name;
-        public List<Order> Orders;
+        public readonly List<Order> Orders;
 
         public Customer()
         {
@@ -26,5 +26,10 @@ namespace ConsoleApplication1
         {
             this.Name = name;
         }
+
+        // public void Promote()
+        // {
+        //     Orders = new List<Order>(); // won't compile if Orders is readonly
+        // }
     }
 }
