@@ -40,6 +40,7 @@
     <ItemGroup>
         <Compile Include="ArrayAndList.cs" />
         <Compile Include="ArrayDemo.cs" />
+        <Compile Include="Car.cs" />
         <Compile Include="Condition\ControlFlow.cs" />
         <Compile Include="Condition\Loop.cs" />
         <Compile Include="Customer.cs" />
@@ -68,6 +69,7 @@
         <Compile Include="Text.cs" />
         <Compile Include="TextDemo.cs" />
         <Compile Include="TimeSpanDemo.cs" />
+        <Compile Include="Vehicle.cs" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Date" />
