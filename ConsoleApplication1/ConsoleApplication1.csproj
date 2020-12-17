@@ -44,28 +44,39 @@
         <Compile Include="Condition\Loop.cs" />
         <Compile Include="Customer.cs" />
         <Compile Include="DateTimeDemo.cs" />
+        <Compile Include="DbMigrator.cs" />
         <Compile Include="DirectoryDemo.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />
         <Compile Include="FileDemo.cs" />
         <Compile Include="HttpCookie.cs" />
+        <Compile Include="Installer.cs" />
         <Compile Include="ListDemo.cs" />
+        <Compile Include="Logger.cs" />
         <Compile Include="Math\Calculator.cs" />
         <Compile Include="Order.cs" />
         <Compile Include="PathDemo.cs" />
         <Compile Include="Person.cs" />
         <Compile Include="Point.cs" />
         <Compile Include="Post.cs" />
+        <Compile Include="PresentationObject.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="RandomDemo.cs" />
         <Compile Include="Stopwatch.cs" />
         <Compile Include="StringsDemo.cs" />
+        <Compile Include="Text.cs" />
         <Compile Include="TextDemo.cs" />
         <Compile Include="TimeSpanDemo.cs" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Date" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+        <Project>{876ad8c2-8fb1-4dea-ba4a-451d1112be07}</Project>
+        <Name>ClassLibrary1</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
