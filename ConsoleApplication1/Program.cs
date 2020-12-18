@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace ConsoleApplication1
 {
@@ -6,25 +8,13 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            Circle circle = new Circle();
-            Shape shape = circle;
-            
-            circle.Width = 100;
-            shape.Width = 200;
-            Console.WriteLine(circle.Width);
-            
-            Circle directCircle = (Circle) shape;
-            
-            Circle asCircle = shape as Circle;
-            if (asCircle != null)
-            {
-                Console.WriteLine("down casting successfully");
-            }
-            
-            if (shape is Circle)
-            {
-                Circle isCircle = (Circle) shape;
-            }
+            var arrayList = new ArrayList();
+            arrayList.Add(1); // boxing happened, it's an object
+            arrayList.Add("Mosh");
+            arrayList.Add(DateTime.Today);
+
+            var list = new List<int>();
+            list.Add(1); // no boxing, it's an integer
         }
     }
 }
