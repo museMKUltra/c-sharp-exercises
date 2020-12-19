@@ -56,6 +56,13 @@
         <Compile Include="ListDemo.cs" />
         <Compile Include="Logger.cs" />
         <Compile Include="Math\Calculator.cs" />
+        <Compile Include="MethodOverriding\Canvas.cs" />
+        <Compile Include="MethodOverriding\Circle.cs" />
+        <Compile Include="MethodOverriding\Program.cs" />
+        <Compile Include="MethodOverriding\Rectangle.cs" />
+        <Compile Include="MethodOverriding\Shape.cs" />
+        <Compile Include="MethodOverriding\ShapeType.cs" />
+        <Compile Include="MethodOverriding\Triangle.cs" />
         <Compile Include="Order.cs" />
         <Compile Include="PathDemo.cs" />
         <Compile Include="Person.cs" />
