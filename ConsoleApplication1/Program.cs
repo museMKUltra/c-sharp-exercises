@@ -1,10 +1,13 @@
-﻿namespace ConsoleApplication1
+﻿using System.IO;
+
+namespace ConsoleApplication1
 {
     internal static class Program
     {
         public static void Main(string[] args)
         {
-            MethodOverriding.Program.Run();
+            var circle = new Circle();
+            circle.Draw();
         }
     }
 }
