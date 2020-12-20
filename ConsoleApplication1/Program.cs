@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using ConsoleApplication1.DB;
 
 namespace ConsoleApplication1
 {
@@ -6,8 +7,7 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            var circle = new Circle();
-            circle.Draw();
+            DbConnection.Run();
         }
     }
 }

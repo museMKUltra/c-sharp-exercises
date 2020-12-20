@@ -47,6 +47,10 @@
         <Compile Include="Customer.cs" />
         <Compile Include="DateTimeDemo.cs" />
         <Compile Include="DbMigrator.cs" />
+        <Compile Include="DB\DbCommand.cs" />
+        <Compile Include="DB\DbConnection.cs" />
+        <Compile Include="DB\OracleConnection.cs" />
+        <Compile Include="DB\SqlConnection.cs" />
         <Compile Include="DirectoryDemo.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />
@@ -80,9 +84,6 @@
         <Compile Include="TextDemo.cs" />
         <Compile Include="TimeSpanDemo.cs" />
         <Compile Include="Vehicle.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Date" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
