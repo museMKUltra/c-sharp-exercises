@@ -80,6 +80,11 @@
         <Compile Include="Stack.cs" />
         <Compile Include="Stopwatch.cs" />
         <Compile Include="StringsDemo.cs" />
+        <Compile Include="Testability\Order.cs" />
+        <Compile Include="Testability\OrderProcessor.cs" />
+        <Compile Include="Testability\Program.cs" />
+        <Compile Include="Testability\Shipment.cs" />
+        <Compile Include="Testability\ShippingCalculator.cs" />
         <Compile Include="Text.cs" />
         <Compile Include="TextDemo.cs" />
         <Compile Include="TimeSpanDemo.cs" />

@@ -1,0 +1,11 @@
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/bin/Debug/TestProject1.dll
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/bin/Debug/TestProject1.pdb
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/bin/Debug/ConsoleApplication1.exe
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/bin/Debug/nunit.framework.dll
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/bin/Debug/ConsoleApplication1.pdb
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/bin/Debug/nunit.framework.xml
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/obj/Debug/TestProject1.csprojAssemblyReference.cache
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/obj/Debug/TestProject1.csproj.CoreCompileInputs.cache
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/obj/Debug/TestProject1.csproj.CopyComplete
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/obj/Debug/TestProject1.dll
+/Users/roller/RiderProjects/ConsoleApplication1/TestProject1/obj/Debug/TestProject1.pdb
