@@ -46,7 +46,6 @@
         <Compile Include="Condition\Loop.cs" />
         <Compile Include="Customer.cs" />
         <Compile Include="DateTimeDemo.cs" />
-        <Compile Include="DbMigrator.cs" />
         <Compile Include="DB\DbCommand.cs" />
         <Compile Include="DB\DbConnection.cs" />
         <Compile Include="DB\OracleConnection.cs" />
@@ -54,11 +53,15 @@
         <Compile Include="DirectoryDemo.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />
+        <Compile Include="Extensibility\ConsoleLogger.cs" />
+        <Compile Include="Extensibility\DbMigrator.cs" />
+        <Compile Include="Extensibility\FileLogger.cs" />
+        <Compile Include="Extensibility\Installer.cs" />
+        <Compile Include="Extensibility\ILogger.cs" />
+        <Compile Include="Extensibility\Program.cs" />
         <Compile Include="FileDemo.cs" />
         <Compile Include="HttpCookie.cs" />
-        <Compile Include="Installer.cs" />
         <Compile Include="ListDemo.cs" />
-        <Compile Include="Logger.cs" />
         <Compile Include="Math\Calculator.cs" />
         <Compile Include="MethodOverriding\Canvas.cs" />
         <Compile Include="MethodOverriding\Circle.cs" />

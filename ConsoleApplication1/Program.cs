@@ -5,7 +5,7 @@
         
         public static void Main(string[] args)
         {
-            Testability.Program.Run();
+            Extensibility.Program.Run();
         }
     }
 }
