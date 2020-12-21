@@ -50,7 +50,7 @@ namespace ConsoleApplication1
                 switch (input)
                 {
                     case "push":
-                        PushPorcess();
+                        PushProcess();
                         break;
                     case "pop":
                         Console.WriteLine(Pop());
@@ -73,7 +73,7 @@ namespace ConsoleApplication1
             foreach (var stack in StackList) Console.WriteLine(stack);
         }
 
-        private void PushPorcess()
+        private void PushProcess()
         {
             Console.WriteLine("Enter message:");
             var input = Console.ReadLine();
