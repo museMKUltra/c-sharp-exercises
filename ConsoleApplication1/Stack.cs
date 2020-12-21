@@ -5,34 +5,35 @@ namespace ConsoleApplication1
 {
     public class Stack
     {
-        private ArrayList StackList { get; set; }
+        private readonly ArrayList _stackList;
 
         public Stack()
         {
-            StackList = new ArrayList();
+            _stackList = new ArrayList();
         }
 
         private void Push(object obj)
         {
-            StackList.Add(obj);
+            _stackList.Add(obj);
         }
 
         private object Pop()
         {
-            if (StackList.Count == 0)
+            if (_stackList.Count == 0)
             {
                 Console.WriteLine("No element to delete...");
                 return null;
             }
 
-            var pop =  StackList[StackList.Count - 1];
-            StackList.RemoveAt(StackList.Count - 1);
+            var index = _stackList.Count - 1;
+            var pop = _stackList[index];
+            _stackList.RemoveAt(index);
             return pop;
         }
 
         private void Clear()
         {
-            StackList.Clear();
+            _stackList.Clear();
         }
 
         public void Run()
@@ -70,7 +71,7 @@ namespace ConsoleApplication1
 
         private void Check()
         {
-            foreach (var stack in StackList) Console.WriteLine(stack);
+            foreach (var stack in _stackList) Console.WriteLine(stack);
         }
 
         private void PushProcess()
