@@ -5,7 +5,7 @@
         
         public static void Main(string[] args)
         {
-            Extensibility.Program.Run();
+            Polymorphism.Program.Run();
         }
     }
 }

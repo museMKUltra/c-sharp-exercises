@@ -74,6 +74,12 @@
         <Compile Include="PathDemo.cs" />
         <Compile Include="Person.cs" />
         <Compile Include="Point.cs" />
+        <Compile Include="Polymorphism\INotificationChannel.cs" />
+        <Compile Include="Polymorphism\MailNotificationChannel.cs" />
+        <Compile Include="Polymorphism\Message.cs" />
+        <Compile Include="Polymorphism\Program.cs" />
+        <Compile Include="Polymorphism\SmsNotificationChannel.cs" />
+        <Compile Include="Polymorphism\VideoEncoder.cs" />
         <Compile Include="Post.cs" />
         <Compile Include="PresentationObject.cs" />
         <Compile Include="Program.cs" />
