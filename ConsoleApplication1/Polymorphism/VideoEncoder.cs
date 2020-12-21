@@ -4,7 +4,7 @@ namespace ConsoleApplication1.Polymorphism
 {
     public class VideoEncoder
     {
-        private readonly List<INotificationChannel> _notificationChannels;
+        private readonly IList<INotificationChannel> _notificationChannels;
 
         public VideoEncoder()
         {
