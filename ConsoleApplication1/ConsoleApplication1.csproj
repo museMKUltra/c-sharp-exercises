@@ -98,13 +98,13 @@
         <Compile Include="TextDemo.cs" />
         <Compile Include="TimeSpanDemo.cs" />
         <Compile Include="Vehicle.cs" />
-        <Compile Include="Workflow\IActivity.cs" />
-        <Compile Include="Workflow\MailSender.cs" />
-        <Compile Include="Workflow\Program.cs" />
-        <Compile Include="Workflow\StatusChanger.cs" />
-        <Compile Include="Workflow\VideoEncoder.cs" />
-        <Compile Include="Workflow\VideoUploader.cs" />
-        <Compile Include="Workflow\Workflow.cs" />
+        <Compile Include="WorkFlow\IActivity.cs" />
+        <Compile Include="WorkFlow\MailSender.cs" />
+        <Compile Include="WorkFlow\Program.cs" />
+        <Compile Include="WorkFlow\StatusChanger.cs" />
+        <Compile Include="WorkFlow\VideoEncoder.cs" />
+        <Compile Include="WorkFlow\VideoUploader.cs" />
+        <Compile Include="WorkFlow\WorkFlow.cs" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
