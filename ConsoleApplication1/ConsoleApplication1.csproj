@@ -65,6 +65,7 @@
         <Compile Include="Generics\GenericDictionary.cs" />
         <Compile Include="Generics\GenericList.cs" />
         <Compile Include="Generics\List.cs" />
+        <Compile Include="Generics\Nullable.cs" />
         <Compile Include="Generics\ObjectList.cs" />
         <Compile Include="Generics\Product.cs" />
         <Compile Include="Generics\Program.cs" />
