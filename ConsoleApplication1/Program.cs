@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Workflow.Program.Run();
+            Generics.Program.Run();
         }
     }
 }
