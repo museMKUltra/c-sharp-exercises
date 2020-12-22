@@ -46,7 +46,7 @@ namespace ConsoleApplication1.Generics
             Console.WriteLine(nullable1.GetValueOrDefault());
 
             var nullable2 = new Nullable<int>();
-            Console.WriteLine(nullable1.HasValue);
+            Console.WriteLine(nullable2.HasValue);
             Console.WriteLine(nullable2.GetValueOrDefault());
         }
     }
