@@ -32,6 +32,7 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="Microsoft.CSharp" />
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
@@ -55,6 +56,7 @@
         <Compile Include="Delegates\PhotoProcessor.cs" />
         <Compile Include="Delegates\Program.cs" />
         <Compile Include="DirectoryDemo.cs" />
+        <Compile Include="DynamicBinding\Program.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />
         <Compile Include="EventsDelegates\MailService.cs" />

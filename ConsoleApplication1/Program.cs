@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            NullableTypes.Program.Run();
+            DynamicBinding.Program.Run();
         }
     }
 }
