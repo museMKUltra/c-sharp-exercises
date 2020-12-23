@@ -98,6 +98,7 @@
         <Compile Include="MethodOverriding\Shape.cs" />
         <Compile Include="MethodOverriding\ShapeType.cs" />
         <Compile Include="MethodOverriding\Triangle.cs" />
+        <Compile Include="NullableTypes\Program.cs" />
         <Compile Include="Order.cs" />
         <Compile Include="PathDemo.cs" />
         <Compile Include="Person.cs" />

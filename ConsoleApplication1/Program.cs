@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Linq.Program.Run();
+            NullableTypes.Program.Run();
         }
     }
 }
