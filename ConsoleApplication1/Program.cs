@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            ExtensionMethods.Program.Run();
+            Linq.Program.Run();
         }
     }
 }

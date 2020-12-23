@@ -86,6 +86,9 @@
         <Compile Include="LambdaExpressions\Book.cs" />
         <Compile Include="LambdaExpressions\BookRepository.cs" />
         <Compile Include="LambdaExpressions\Program.cs" />
+        <Compile Include="Linq\Book.cs" />
+        <Compile Include="Linq\BookRepository.cs" />
+        <Compile Include="Linq\Program.cs" />
         <Compile Include="ListDemo.cs" />
         <Compile Include="Math\Calculator.cs" />
         <Compile Include="MethodOverriding\Canvas.cs" />
