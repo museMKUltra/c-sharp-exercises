@@ -69,6 +69,8 @@
         <Compile Include="Extensibility\Installer.cs" />
         <Compile Include="Extensibility\ILogger.cs" />
         <Compile Include="Extensibility\Program.cs" />
+        <Compile Include="ExtensionMethods\Program.cs" />
+        <Compile Include="ExtensionMethods\StringExtensions.cs" />
         <Compile Include="FileDemo.cs" />
         <Compile Include="Generics\Book.cs" />
         <Compile Include="Generics\DiscountCalculator.cs" />

@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            EventsDelegates.Program.Run();
+            ExtensionMethods.Program.Run();
         }
     }
 }
