@@ -29,7 +29,7 @@ namespace ConsoleApplication1.EventsDelegates
         protected virtual void OnVideoEncoded(Video video)
         {
             VideoEncoded?.Invoke(this, new VideoEventArgs() {Video = video});
-            // if (VideoEncoded!=null) VideoEncoded(source, EventArgs.Empty);
+            // if (VideoEncoded != null) VideoEncoded?.Invoke(this, new VideoEventArgs() {Video = video});
             // above two lines are the same 
         }
     }
