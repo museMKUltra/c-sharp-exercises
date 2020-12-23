@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Delegates.Program.Run();
+            LambdaExpressions.Program.Run();
         }
     }
 }

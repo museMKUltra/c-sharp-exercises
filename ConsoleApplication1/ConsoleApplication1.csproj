@@ -57,6 +57,7 @@
         <Compile Include="DirectoryDemo.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />
+        <Compile Include="EventsDelegates\Program.cs" />
         <Compile Include="Extensibility\ConsoleLogger.cs" />
         <Compile Include="Extensibility\DbMigrator.cs" />
         <Compile Include="Extensibility\FileLogger.cs" />
@@ -75,6 +76,9 @@
         <Compile Include="Generics\Program.cs" />
         <Compile Include="Generics\Utilities.cs" />
         <Compile Include="HttpCookie.cs" />
+        <Compile Include="LambdaExpressions\Book.cs" />
+        <Compile Include="LambdaExpressions\BookRepository.cs" />
+        <Compile Include="LambdaExpressions\Program.cs" />
         <Compile Include="ListDemo.cs" />
         <Compile Include="Math\Calculator.cs" />
         <Compile Include="MethodOverriding\Canvas.cs" />
