@@ -50,6 +50,10 @@
         <Compile Include="DB\DbConnection.cs" />
         <Compile Include="DB\OracleConnection.cs" />
         <Compile Include="DB\SqlConnection.cs" />
+        <Compile Include="Delegates\Photo.cs" />
+        <Compile Include="Delegates\PhotoFilter.cs" />
+        <Compile Include="Delegates\PhotoProcessor.cs" />
+        <Compile Include="Delegates\Program.cs" />
         <Compile Include="DirectoryDemo.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />

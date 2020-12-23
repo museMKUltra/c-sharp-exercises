@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Generics.Program.Run();
+            Delegates.Program.Run();
         }
     }
 }
