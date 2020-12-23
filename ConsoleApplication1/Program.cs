@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            LambdaExpressions.Program.Run();
+            EventsDelegates.Program.Run();
         }
     }
 }

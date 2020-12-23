@@ -57,7 +57,12 @@
         <Compile Include="DirectoryDemo.cs" />
         <Compile Include="Enum\ImageOrientation.cs" />
         <Compile Include="Enum\OrderMapping.cs" />
+        <Compile Include="EventsDelegates\MailService.cs" />
+        <Compile Include="EventsDelegates\MessageService.cs" />
         <Compile Include="EventsDelegates\Program.cs" />
+        <Compile Include="EventsDelegates\Video.cs" />
+        <Compile Include="EventsDelegates\VideoEncoder.cs" />
+        <Compile Include="EventsDelegates\VideoEventArgs.cs" />
         <Compile Include="Extensibility\ConsoleLogger.cs" />
         <Compile Include="Extensibility\DbMigrator.cs" />
         <Compile Include="Extensibility\FileLogger.cs" />
