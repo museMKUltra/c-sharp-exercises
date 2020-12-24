@@ -65,6 +65,11 @@
         <Compile Include="EventsDelegates\Video.cs" />
         <Compile Include="EventsDelegates\VideoEncoder.cs" />
         <Compile Include="EventsDelegates\VideoEventArgs.cs" />
+        <Compile Include="ExceptionHandling\Calculator.cs" />
+        <Compile Include="ExceptionHandling\Program.cs" />
+        <Compile Include="ExceptionHandling\Video.cs" />
+        <Compile Include="ExceptionHandling\YouTubeApi.cs" />
+        <Compile Include="ExceptionHandling\YouTubeException.cs" />
         <Compile Include="Extensibility\ConsoleLogger.cs" />
         <Compile Include="Extensibility\DbMigrator.cs" />
         <Compile Include="Extensibility\FileLogger.cs" />
