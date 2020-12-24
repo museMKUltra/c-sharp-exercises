@@ -8,6 +8,7 @@ namespace ConsoleApplication1.NullableTypes
         {
             // DateTime date = null; // won't compile
             Nullable<DateTime> dateOk1 = null; // it's ok
+            Console.WriteLine(dateOk1);
             DateTime? dateOk2 = null; // another ok way
 
             // if null, default value is 1/1/0001 12:00:00 AM 

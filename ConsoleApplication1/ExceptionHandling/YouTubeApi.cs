@@ -13,7 +13,7 @@ namespace ConsoleApplication1.ExceptionHandling
                 // Read the data
                 // Create a list of Video objects
                 // ...
-                throw new Exception("Oops, some low level YouTube error...");
+                // throw new Exception("Oops, some low level YouTube error...");
             }
             catch (Exception e)
             {

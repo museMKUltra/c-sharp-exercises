@@ -32,7 +32,7 @@ namespace ConsoleApplication1.ExceptionHandling
                 var content = streamReader.ReadToEnd();
                 Console.WriteLine(content);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Sorry, an exception error occured...");
             }
@@ -66,7 +66,6 @@ namespace ConsoleApplication1.ExceptionHandling
             {
                 Console.WriteLine(e.Message); // Could not fetch videos from YouTube.
                 Console.WriteLine(e.InnerException?.Message); // Oops, some low level YouTube error...
-
             }
         }
     }
