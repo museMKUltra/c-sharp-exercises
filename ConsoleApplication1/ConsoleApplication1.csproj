@@ -97,6 +97,7 @@
         <Compile Include="Linq\BookRepository.cs" />
         <Compile Include="Linq\Program.cs" />
         <Compile Include="ListDemo.cs" />
+        <Compile Include="MainWindow\Program.cs" />
         <Compile Include="Math\Calculator.cs" />
         <Compile Include="MethodOverriding\Canvas.cs" />
         <Compile Include="MethodOverriding\Circle.cs" />
